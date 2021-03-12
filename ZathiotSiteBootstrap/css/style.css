@@ -1,0 +1,356 @@
+body{
+	margin: 0px;
+	font-family: roboto, aria;
+}
+header{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 70px;
+	z-index: 9;
+}
+nav{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+}
+#Logo{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 20%;
+	height: 100%;
+}
+#LogoImg{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100px;
+	height: 100px;
+}
+/*______________________________________________________________________________________________________*/
+
+article{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+}
+/*______________________________________________________________________________________________________*/
+#Kontent{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 700px;
+	background: url(../img/banner-bk.jpg) no-repeat 50% 50%/2095px;
+}
+#KontentBlock{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin:0 auto;
+}
+#KontentBlockText{
+	position: absolute;
+	top: 220px;
+    right: 10%;
+    width: 85%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 70px;
+    font-weight: 600;
+   	color: white;
+}
+#KontentBlockStroka{
+	position: absolute;
+	top: 408px;
+    right: 9%;
+    width: 85%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+}
+#KontentSilka{
+	position: absolute;
+	top: 515px;
+    right: 79%;
+    width: 15%;
+    height: 50px;
+}
+#KontentKnopka{
+	position:absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	background: #00FFAD;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 500;
+	border:none;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.4s;
+	box-shadow: 0px 0px 10px 0px #00299c;
+    color: #000092;
+}
+#KontentKnopka:hover{
+	color:white;
+}
+
+/*______________________________________________________________________________________________________*/
+
+#Kontent3{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 990px;
+	background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+}
+#Kontent3Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+}
+.Kontent3-blocks-img{
+	position: relative;
+	top: 0;
+	width: 500px;
+}
+.Kontent3-blocks-img2{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 500px;
+}
+.Kontent3-blocks-knopka{
+	background:#01366d;
+	border-radius: 10px;
+	font-weight: 500;
+	color: white;
+	transition: 0.4s;
+}
+.Kontent3-blocks-knopka:hover{
+    transform: translate(0px, -5px);
+    background: #04fcb0;
+}
+
+/*______________________________________________________________________________________________________*/
+#Kontent4{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+}
+#Kontent4Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.Kontent4-Blocks{
+	position: relative;
+	top: 0;
+	right: 0%;
+    width: 557px;
+    height: 500px;
+    display: inline-block;
+    flex:none;
+}
+.Block-dark{
+	background: #192440;
+}
+.Kontent4-Blocks-Knopka{
+	background: #00e69c;
+	transition: 0.4s;
+	border-radius: 10px;
+}
+.Kontent4-Blocks-Knopka:hover{
+	color: white;
+	transform: translate(0px, -5px);
+}
+/*______________________________________________________________________________________________________*/
+
+#Kontent5{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background: #eceeef;
+}
+#Kontent5Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	padding: 48px;
+}
+.Kontent5-blocks{
+	position: relative;
+    top: 15px;
+    right: -1%;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.Kontent5-block-img{
+	position: relative;
+	top: 12px;
+}
+/*______________________________________________________________________________________________________*/
+
+footer{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background: url(../img/contact-bk.jpg)no-repeat 50% 50%/170em; 
+}
+#footerBlock{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	padding: 60px;
+
+}
+.footer-blocks{
+	position: relative;
+	top: 10px;
+	right: -1%;
+	width: 500px;
+	height: 290px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.Forma{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+}
+.forma-input{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 75%;
+	height: 50px;
+	display: block;
+	margin-bottom: 25px;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: #00FFAD;
+	outline: none;
+	background: no-repeat;
+	border:solid 1px #00FFAD;
+	border-radius: 10px;
+	padding: 5px;
+}
+.forma-textarea{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 75%;
+	height: 100px;
+	background: none;
+	border:solid 1px #00FFAD;
+	border-radius: 10px;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: #00FFAD;
+	outline: none;
+	padding: 5px;
+	resize: none;
+}
+.forma-knopka{
+	background: #00FFAD;
+	border-radius: 10px;
+}
+#FooterCopirate{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 115px;
+	background: #192440;
+}
+.footer-SocialSilka{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 75%;
+	height: 50px;
+}
+.footer-silka{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 50px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 20px;
+}
+.Footer-silka-img{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	transition: 0.4s;
+}
+.Footer-silka-img:hover{
+    transform: scale(1.3);
+}
+/*_______________________________________________________________________________________________*/
+@media only screen and (max-width: 981px){
+	#Kontent3{
+		width: 100%;
+		height:auto;
+	}
+	#Kontent3Block{
+		width: 540px;
+		padding-bottom: 50px;
+	}
+}
